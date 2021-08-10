@@ -1,6 +1,8 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class MommifierTest {
 
     @Test
@@ -11,7 +13,7 @@ public class MommifierTest {
 
         int vowelsSize = mommifier.countVowels(str);
 
-        Assertions.assertEquals(1, vowelsSize);
+        assertEquals(1, vowelsSize);
     }
 
 
